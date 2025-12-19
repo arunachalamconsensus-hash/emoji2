@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Emoji Art Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="input">
+    <h1>Emoji Art Generator</h1>
+    <p>Enter emoji type (e.g., smile, sad, heart) and quantity</p>
+    <input type="text" id="emojiName" placeholder="e.g., smile" />
+    <input type="number" id="emojiCount" placeholder="Quantity" min="1" max="20"/>
+    <button id="generateBtn">Generate</button>
+  </div>
+
+  <div id="emojiContainer"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

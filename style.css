@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Quicksand", sans-serif;
+    background: linear-gradient(to right, #4b6cb7, #182848);
+    color: white;
+    min-height: 100vh;
+  }
+  
+  #input {
+    padding: 30px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.4);
+  }
+  
+  input, button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  #generateBtn {
+    background-color: #ff9800;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #generateBtn:hover {
+    background-color: #e68900;
+  }
+  
+  #emojiContainer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+  }
+  
+  .emoji-box {
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    background: #333;
+    border-radius: 10px;
+    min-width: 50px;
+    text-align: center;
+    padding: 10px;
+  }
+  
